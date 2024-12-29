@@ -1,0 +1,517 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" desktop landscape"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Reservation</title>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/lang/lang.en.js?v=2n520240929"></script>
+<link rel="stylesheet" type="text/css" href="https://13079.hotelogix.net/webreservation/index/createcss/?hidHotelIdWebOut=QV5TX0ZSczM0XzEzMDc5X0Y1dGVyOTA4N3NfKWRoZl9kcnRlcjdfMTMwNzlfaGdmaF9nXmQ4NTQ=&amp;v=2n520240929">
+<link rel="stylesheet" type="text/css" href="https://13079.hotelogix.net/js/yui/build/fonts/fonts-min.css">
+<link rel="stylesheet" type="text/css" href="https://13079.hotelogix.net/js/yui/build/calendar/assets/skins/sam/calendar.css">
+<link rel="stylesheet" type="text/css" href="https://13079.hotelogix.net/js/yui/build/container/assets/skins/sam/container.css">
+<link rel="stylesheet" type="text/css" href="https://13079.hotelogix.net/jq/css/smoothness/jquery-ui-1.11.1.min.css">
+<script type="text/javascript" src="https://13079.hotelogix.net/styles/assets-hl/js/webtoolkit.base64.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/yuiloader/yuiloader-min.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/calendar/calendar-min.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/container/container-min.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/connection/connection-min.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/json/json-min.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/animation/animation.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/yui/build/dragdrop/dragdrop-min.js"></script>
+<script language="javascript" src="https://13079.hotelogix.net/styles/assets-hl/js/dateformat.js?v=2n520240929" type="text/javascript"></script>
+<script language="javascript" src="https://13079.hotelogix.net/js/yui/build/datasource/datasource.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/jq/js/jquery-ui-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://13079.hotelogix.net/js/common.js?v=2n520240929"></script>
+
+
+<script language="javascript">
+ function goto(id)
+ {
+  document.frm.submit();
+ }
+</script>
+<script src="https://13079.hotelogix.net/js/getstates.js.php?adminUrl=https://13079.hotelogix.net/admine&amp;v=2n520240929"></script>
+<link href="https://13079.hotelogix.net/styles/assets-hl/css/main-webres.css?v=2n520240929" rel="stylesheet" type="text/css">
+<link href="https://13079.hotelogix.net/styles/assets-hl/css/WebRes.css?v=2n520240929" rel="stylesheet" type="text/css">
+<script language="javascript" src="https://13079.hotelogix.net/styles/assets-hl/js/device.js?v=2n520240929" type="text/javascript"></script>
+
+<!---- Added by Nand Kishor ----->
+
+<link href="https://13079.hotelogix.net/styles/bootstrap.min.css?v=2n520240929" rel="stylesheet" type="text/css">
+<link href="https://13079.hotelogix.net/styles/nand.css?v=2n520240929" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://13079.hotelogix.net/js/html5shiv.js"></script>
+      <script src="https://13079.hotelogix.net/js/respond.min.js"></script>
+    <![endif]-->
+    
+    
+    <script>
+        var customSettingKeys = {};
+        var PHONE_EMAIL_VALIDATION = 'PHEVAL';    
+
+                customSettingKeys[PHONE_EMAIL_VALIDATION] = parseInt('0');
+        		
+    </script>
+
+</head>
+<body class=" yui-skin-sam" onload="setFrmHeight()"><iframe id="_yuiResizeMonitor" title="Text Resize Monitor" style="position: absolute; visibility: visible; width: 10em; height: 10em; top: -110px; left: -110px; border-width: 0px;"></iframe><div class="yui-panel-container shadow" id="PanelModalWait_c" style="left: 510px; top: 0px; z-index: 2;"><div id="PanelModalWait" class="yui-module yui-overlay yui-panel" style="visibility: inherit; width: 240px; height: 80px;"><div class="hd" style="cursor: move;" id="PanelModalWait_h">&nbsp;</div>
+
+											<div class="bd" style="height: 80px;"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td align="center" valign="middle" style="vertical-align:middle;"><img src="https://13079.hotelogix.net/styles/assets-hl/css/wait.gif"></td></tr><tr><td height="3px"></td></tr><tr><td align="center" height:"15px"=""><div id="loadingPanelText">Loading Content...</div></td></tr></tbody></table></div>
+
+									</div></div>
+<div id="detectInternetConnOFF" class="notIntConn" style="display:none;">You Are Offline...</div>    
+<br>
+<div id="webresCalPopup"></div>
+<table border="0" align="center" cellpadding="0" cellspacing="0" class="border mainTblWidth" id="web_res_id1">
+        <tbody><tr>
+        <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+                    <td align="right" valign="top" colspan="2">                        <a href="https://13079.hotelogix.net/webreservation/index/corpagentlogin/?refType=CORP&amp;hidHotelIdWebOut=QV5TX0ZSczM0XzEzMDc5X0Y1dGVyOTA4N3NfKWRoZl9kcnRlcjdfMTMwNzlfaGdmaF9nXmQ4NTQ=">Corporate</a> | <a href="https://13079.hotelogix.net/webreservation/index/corpagentlogin/?refType=AGENT&amp;hidHotelIdWebOut=QV5TX0ZSczM0XzEzMDc5X0Y1dGVyOTA4N3NfKWRoZl9kcnRlcjdfMTMwNzlfaGdmaF9nXmQ4NTQ=">Travel Agent </a> |
+                                                <a href="https://13079.hotelogix.net/webreservation/index/login/?hidHotelIdWebOut=QV5TX0ZSczM0XzEzMDc5X0Y1dGVyOTA4N3NfKWRoZl9kcnRlcjdfMTMwNzlfaGdmaF9nXmQ4NTQ=">Guest </a>
+                                                | <a href="JavaScript:void(0)" onclick="goPrevNext('home',0)">Make a new Reservation</a>
+                        	&nbsp;&nbsp;&nbsp;<br><img title="English" style="cursor:pointer" src="https://13079.hotelogix.net/images/us-flag.gif" border="0" onclick="chngeLanguageFunction('frmWebRes','1')">&nbsp;&nbsp;                        &nbsp; </td>
+                </tr>
+                <tr>
+                    <td colspan="2">                        </td></tr>
+            </tbody></table></td>
+    </tr>
+        <tr>
+        <td colspan="2" align="center" valign="middle" class="hidden-xs hidden-sm"><table width="100%" border="0" cellpadding="0" cellspacing="1">
+					  <tbody><tr>
+						<td align="center" valign="middle" class="bandnewnav">
+							<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							  <tbody><tr>
+								<td align="center" valign="middle" height="28">1. Stay Date</td>
+								<td align="left" valign="middle"></td>
+								<td align="center" valign="middle">2. Select Room </td>
+								<td align="left" valign="middle"></td>
+								<td align="center" valign="middle">3. Check Details/Add More Rooms</td>
+								<td align="left" valign="middle"></td>
+								<td align="center" valign="middle">4. Confirm Reservation </td>
+							  </tr>
+							</tbody></table></td>
+					  </tr>
+					</tbody></table>
+            
+            <!--<div class="navbar navbar-default hidden-xs hidden-sm" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"  >1. Stay Date</a></li>
+                        <li><a href="#"  >2. Select Room</a></li>
+                        <li><a href="#"  >3. Check Details/Add More Rooms</a></li>
+                        <li><a href="#" >4. Confirm Reservation</a></li>
+                    </ul>
+                </div>
+            </div>--></td>
+    </tr>
+        <tr style="z-index:10000">
+        <td colspan="2" align="right" style="padding-right:20px;z-index:10000"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="hidden" name="hidTotalItemOnCart" id="hidTotalItemOnCart" value="0">
+            <input type="hidden" name="isInShoppingCart" id="isInShoppingCart" value="1">
+            <input type="hidden" name="isInShoppingCartSp" id="isInShoppingCartSp" value="1">
+            <input type="hidden" name="hidmaxWebRsvAllowed" id="hidmaxWebRsvAllowed" value="5">
+             <form name="frmWebRes" id="frmWebRes" method="post" action="">
+<input type="hidden" name="hidHotelIdWeb" id="hidHotelIdWeb" value="QV5TX0ZSczM0XzEzMDc5X0Y1dGVyOTA4N3NfKWRoZl9kcnRlcjdfMTMwNzlfaGdmaF9nXmQ4NTQ=">
+<input type="hidden" name="hidBagId" id="hidBagId" value=""><div id="printHotelInfo" style="display:none">
+<table width="99%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tbody><tr>
+    <td width="75%" align="left" valign="top"></td>
+    <td width="25%">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="2" style="font-size:14px"><strong>TestAutoHotel</strong></td></tr><tr><td colspan="2" width="100%" valign="top">My Address<br>My City - My Zip code<br>Uttar Pradesh, India</td></tr><tr><td width="10%"><strong>Phone:</strong></td><td width="90%">4355</td></tr><tr><td><strong>Email:</strong></td><td>brk.h.k.apoor@gmail.com</td></tr><tr><td><strong>Website:&nbsp;</strong></td><td>rtgrg</td></tr></tbody></table>
+	</td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+</tbody></table>
+</div><div id="printDiv">
+<table width="99%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody><tr><td width="100%" align="center">
+
+	
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tbody><tr><td width="100%"></td></tr>
+
+		<tr>
+        	<td>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tbody><tr>
+				<td width="50%" align="left" valign="top">&nbsp;<h3><strong>Booking Confirmation</strong></h3></td>
+				<td width="50%" align="right" valign="top"><h3><strong>Reservation Group Id# G 10282639</strong></h3></td>
+			  </tr>
+			</tbody></table>
+			</td>
+    </tr>   		
+		<tr>
+       	  <td>
+			<!--p>Thank you for booking your stay with TestAutoHotel</p-->
+			<p></p></td>
+    </tr>   
+	 <tr>
+	   <td align="left">&nbsp;</td>
+    </tr> <tr>
+		   <td height="10px" align="left">
+		   
+		 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="48%" align="center" valign="top">
+	
+	<table width="100%" border="0" cellspacing="1" cellpadding="0">
+      <tbody><tr>
+        <td colspan="3" align="left" valign="top" height="15px"><strong>Guest Details </strong></td>
+      </tr> <tr>
+        <td width="15%" align="left" valign="top"><strong>Name</strong></td>
+        <td width="1%" align="left" valign="top">:</td>
+        <td width="84%" align="left" valign="top"><strong><font class="guestNameTxt">Mr. xakob VbFYk (ID#P9276)</font></strong></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><strong>Address</strong></td>
+        <td align="left" valign="top">:</td>
+        <td align="left" valign="top">Delhi</td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top">Delhi, Delhi, 110096 </td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top">India</td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top"> <img width="7" height="13" src="https://13079.hotelogix.net/images/phone.gif"> 8506853589 <img width="7" height="13" src="https://13079.hotelogix.net/images/mobile.gif"> 1213456</td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top"><em><font color="#3366FF">CPiuS@stayezee.com<font></font></font></em></td>
+      </tr>
+    </tbody></table></td>
+    <td width="2%" align="center" valign="top"></td>
+    <td width="48%" align="right" valign="top"></td>
+  </tr>
+</tbody></table>
+		   
+		   </td>
+    	</tr>
+		
+		
+		<tr>
+			<td>&nbsp;</td>
+		</tr> 
+		  
+		<tr>	
+			<td><table width="100%" border="0" cellpadding="3" cellspacing="1" class="tbl-contentNew" style="border-collapse:collapse;">
+			
+              <tbody><tr>
+                <!--<td width="11%"  align="center"  valign="top" bgcolor="#4A4A4A" class="colorwhite" style="border-bottom:solid 1px #000; border-top:solid 1px #000;"><strong><font style="color:#FFFFFF">Room Type</font></strong></td>-->
+					<th width="232" bgcolor="#4A4A4A" valign="top" style="text-align:left; padding-left:10px; border-bottom:solid 1px #000; border-top:solid 1px #000;"><font style="color:#FFFFFF">Package/Rate Detail</font></th>
+				<th bgcolor="#4A4A4A" valign="top" style="border-bottom:solid 1px #000; border-top:solid 1px #000;"><font style="color:#FFFFFF;">Arrival-Departure</font></th>
+				<th bgcolor="#4A4A4A" width="50" valign="top" class="hidden-xs hidden-sm" style="border-bottom:solid 1px #000; border-top:solid 1px #000;"><font style="color:#FFFFFF">Person(s)</font></th>
+                <th bgcolor="#4A4A4A" valign="top" class="dont-print-me hidden-xs hidden-sm" style="border-bottom:solid 1px #000; border-top:solid 1px #000;"><font style="color:#FFFFFF">Price</font></th>
+                <th bgcolor="#4A4A4A" valign="top" style="border-bottom:solid 1px #000; border-top:solid 1px #000;"><font style="color:#FFFFFF">Room(s)</font></th>
+                <th bgcolor="#4A4A4A" valign="top" class="dont-print-me" style="border-bottom:solid 1px #000; border-top:solid 1px #000;"><font style="color:#FFFFFF">Amount</font></th></tr><tr>
+					<td align="left" valign="top" bgcolor="#EEEEEE">
+					  <table width="100%" border="0" cellspacing="0" cellpadding="1">
+						
+						<tbody><tr>
+						  <td><h5 class="rmt-name">Deluxe</h5></td>
+                    </tr>
+                    <tr>
+						  <td valign="top">
+						  <p><span class="size13"><strong>Rack Rate</strong></span></p>
+						  <span class="amenityh"><span class="inclusionTxt">Inclusions</span></span>
+						  <span class="colorgrey01"><em>None </em></span>
+						  
+						  <br><span class="amenityh"><span class="amenityTxt">Amenities</span></span>
+						  <span class="colorgrey01"><em>Air conditioning,International direct dial telephone,Internet Access </em></span><br><span class="amenityh dont-print-me"><span class="depositTxt"><em> Requires <br>50.00% Deposit </em></span></span></td>
+						</tr>
+					  </tbody></table>                  </td>
+					  
+					   <td align="center" valign="top" bgcolor="#EEEEEE" class="pading10">
+						Oct 28, 2024 - Oct 29, 2024<br>1 Nights
+					  
+					  </td>
+					  
+					  <td align="left" valign="top" bgcolor="#EEEEEE" class="pading10 hidden-xs hidden-sm">
+					
+					  <table width="100%" border="0" cellspacing="2" cellpadding="0">
+                        <tbody><tr>
+                          <td width="47%" align="left">Adults:</td>
+                          <td width="53%" align="left">1</td>
+                        </tr></tbody></table>
+					  
+					  </td>
+					  
+					  
+					<td align="right" valign="top" bgcolor="#EEEEEE" class="pading10 dont-print-me hidden-xs hidden-sm">
+					
+					Rs&nbsp;800.00<br></td>
+					<td align="center" valign="top" bgcolor="#EEEEEE" class="pading10">1</td>
+					<td align="right" valign="top" bgcolor="#EEEEEE" class="pading10 dont-print-me">
+						<strong>
+						Rs&nbsp;800.00<br></strong></td></tr><tr>
+					<td align="left" valign="top" bgcolor="#EEEEEE">
+					  <table width="100%" border="0" cellspacing="0" cellpadding="1">
+						
+						<tbody><tr>
+						  <td><h5 class="rmt-name">Deluxe</h5></td>
+                    </tr>
+                    <tr>
+						  <td valign="top">
+						  <p><span class="size13"><strong>Rack Rate</strong></span></p>
+						  <span class="amenityh"><span class="inclusionTxt">Inclusions</span></span>
+						  <span class="colorgrey01"><em>None </em></span>
+						  
+						  <br><span class="amenityh"><span class="amenityTxt">Amenities</span></span>
+						  <span class="colorgrey01"><em>Air conditioning,International direct dial telephone,Internet Access </em></span><br><span class="amenityh dont-print-me"><span class="depositTxt"><em> Requires <br>50.00% Deposit </em></span></span></td>
+						</tr>
+					  </tbody></table>                  </td>
+					  
+					   <td align="center" valign="top" bgcolor="#EEEEEE" class="pading10">
+						Oct 28, 2024 - Oct 29, 2024<br>1 Nights
+					  
+					  </td>
+					  
+					  <td align="left" valign="top" bgcolor="#EEEEEE" class="pading10 hidden-xs hidden-sm">
+					
+					  <table width="100%" border="0" cellspacing="2" cellpadding="0">
+                        <tbody><tr>
+                          <td width="47%" align="left">Adults:</td>
+                          <td width="53%" align="left">1</td>
+                        </tr></tbody></table>
+					  
+					  </td>
+					  
+					  
+					<td align="right" valign="top" bgcolor="#EEEEEE" class="pading10 dont-print-me hidden-xs hidden-sm">
+					
+					Rs&nbsp;800.00<br></td>
+					<td align="center" valign="top" bgcolor="#EEEEEE" class="pading10">1</td>
+					<td align="right" valign="top" bgcolor="#EEEEEE" class="pading10 dont-print-me">
+						<strong>
+						Rs&nbsp;800.00<br></strong></td></tr><tr>
+			 	  <td colspan="6" align="center" bgcolor="#EEEEEE" class="dont-print-me">
+				  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody><tr>
+                                      <td colspan="2" style="height:1px" align="right"><hr></td>
+                                    </tr>
+                                    <tr>
+                                      <td width="87%" align="right" valign="top"><strong>Total Amount:</strong></td>
+                                      <td width="13%" align="right"><strong>Rs&nbsp;1,600.00</strong><br></td>
+                                    </tr><tr>
+                      <td width="87%" align="right" valign="top"><strong>Total Tax(es):</strong></td>
+                      <td width="13%" align="right"><strong>Rs&nbsp;144.00</strong><br></td>
+                    </tr><tr>
+                      <td width="87%" align="right" valign="top"><strong>Total Amount (with Tax):</strong></td>
+                      <td width="13%" align="right"><strong>Rs&nbsp;1,744.00</strong><br></td>
+                    </tr><tr>
+                      <td width="87%" align="right" valign="top" style="font-size:12px"><strong><span class="depositTxt">Total Deposit(Inc Tax): </span></strong></td>
+                      <td width="13%" align="right" style="font-size:12px"><strong><span class="depositTxt">Rs&nbsp;872.00<br></span></strong></td>
+                    </tr><tr>
+                      <td width="87%" align="right" valign="top"><strong>Amount Paid:</strong></td>
+                          <td width="13%" align="right"><strong>Rs&nbsp;872.00</strong>
+                          </td>
+                    </tr><tr>
+                      <td width="87%" align="right" valign="top"><strong>Balance:</strong></td>
+                          <td width="13%" align="right"><strong>Rs&nbsp;872.00</strong>
+                          </td>
+                    </tr></tbody></table></td>
+		 	  </tr>
+            </tbody></table>			</td>
+		  </tr> 
+		<tr>
+			<td>&nbsp;</td>
+			</tr> 
+			<tr>
+						<td align="left"><strong>Preferences:</strong> Need Newspaper</td>
+			</tr> <tr>
+			<td>&nbsp;</td>
+		</tr> 
+		<tr>
+			<td align="left"><strong>Payment Terms</strong></td>
+		</tr>
+		<tr>
+			<td align="left"><strong>Credit card</strong></td>
+		</tr>	
+		<tr>
+			  <td height="25px" align="left"></td>
+		</tr><tr>
+			  <td height="10px" align="left">&nbsp;</td>
+		</tr><tr><td align="left">
+	
+			<table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr>       
+					<td align="left" class="dont-print-me">
+						<p>
+						<strong>Cancellation Policy</strong>
+						</p> 
+					</td>
+				</tr><tr><td>
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="dont-print-me">
+
+
+				 <tbody><tr>
+                    <td colspan="5"><strong>Rack Rate </strong>(Deluxe Stay Dates:Oct 28, 2024-Oct 29, 2024)</td>                   
+                  </tr><tr>
+						    <td width="2%" align="left" valign="top">&nbsp;&nbsp;1. </td>
+						   <!-- <td width="13%" align="left" valign="top">Cancellation Policy (10% of Booking)</td>-->
+							<td width="98%" align="left" valign="top"><em> For cancellation of reservation <strong> for all other Day(s) </strong> before the check in, charge <strong> 10 % of booking </strong></em></td>
+						  </tr></tbody></table>
+
+
+</td>
+</tr><tr><td align="left">&nbsp;</td></tr><tr><td align="left">&nbsp;</td></tr><tr><td align="left">&nbsp;</td></tr><tr><td align="left"></td></tr><tr><td><div align="right" class="footer">
+        <a href="http://www.hotelogix.com" target="_blank">Powered by Hotelogix</a>
+        </div></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr>
+				<td height="25px" align="center">
+					
+					 <input class="button" type="button" value="Print This Page" name="select_btn" onclick="CallPrint('printDiv','printHotelInfo','');">
+						<input type="hidden" name="hidRoomTypeId" id="hidRoomTypeId" value="">
+						<input type="hidden" name="hidPkgId" id="hidPkgId" value="">
+						<input type="hidden" name="hidFromConfirm" id="hidFromConfirm" value="">
+						<input type="hidden" name="hidWebRefNo" id="hidWebRefNo" value="WEB-2193010347">
+					
+					 </td>
+				</tr></tbody></table><script language="javascript" src="https://13079.hotelogix.net/styles/assets-hl/js/main-webres.js.php?base_url=https://13079.hotelogix.net&amp;currContUrl=https://13079.hotelogix.net/webreservation/index" &v="2n520240929" type="text/javascript"></script>
+							<script language="javascript">
+								document.getElementById('PanelModalWait_c').style.top="0px";
+							</script></div></form></td>
+    </tr>
+       <tr>
+        <td colspan="2" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                    <td width="34%" align="center" valign="top">&nbsp;</td>
+                    <td width="33%" align="center" valign="top"></td>
+				                  
+                </tr>
+            </tbody></table></td>
+    </tr>
+</tbody></table>
+<div style="clear:both"></div>
+<p>&nbsp;</p>
+
+
+
+<script language="javascript" src="https://13079.hotelogix.net/styles/assets-hl/js/utilities-hl.js.php?base_url=https://13079.hotelogix.net&amp;currContUrl=https://13079.hotelogix.net/webreservation/index&amp;base_path=/var/www/html/hotelogixcode/pms/public&amp;languageId=1&amp;languageCode=en&amp;localCurrSymbol=&nbsp;?&amp;webDecimalPlace=2&amp;v=2n520240929" type="text/javascript"></script>
+<script language="javascript" src="https://13079.hotelogix.net/styles/assets-hl/js/data-webres.js.php?base_url=https://13079.hotelogix.net&amp;currContUrl=https://13079.hotelogix.net/webreservation/index&amp;base_path=/var/www/html/hotelogixcode/pms/public&amp;languageId=1&amp;languageCode=en&amp;localCurrSymbol=&nbsp;?&amp;webDecimalPlace=2&amp;labelzipcode=Zip Code&amp;v=2n520240929" type="text/javascript"></script>
+
+
+<script language="javascript">
+if(YAHOO.util.Dom.get("divStayTopLeft"))
+{
+	var dd = new YAHOO.util.DD("divStayTopLeft"); 
+	dd.setXConstraint(YAHOO.util.Dom.getViewportWidth(),190);
+	
+	YAHOO.util.Event.on(window, 'scroll', function() {
+		var top1 = YAHOO.util.Dom.getDocumentScrollTop();
+		var h = parseInt(YAHOO.util.Dom.getViewportHeight ()/2); 
+		var vtop = top1 + 20;  
+	
+		var attributes = { 
+			top: { to: vtop } 
+		}; 
+		var anim = new YAHOO.util.Anim('divStayTopLeft', attributes, .5, YAHOO.util.Easing.easeOut); 
+		anim.animate();
+	});	
+
+}
+
+function getDocHeight() {
+  
+	return document.body.offsetHeight;
+}
+
+
+function setFrmHeight()
+{    
+    
+        /*try{
+            var heightSettUrl = '';
+            if(heightSettUrl!='')
+            {
+                document.getElementById('frmHId').src = "?height="+getDocHeight();
+            }
+        }catch(e){}*/
+        
+        try{
+            setFrmHeightWithMessaging();
+        }catch(e){}
+}
+
+function onlyDomain(url)
+{
+    if(url==='')
+    {
+        return '';
+    }
+    var protocolCutInx = url.indexOf('://'); 
+    var remainingUrl = url;
+    if(protocolCutInx>-1)
+    {
+        remainingUrl = url.substr(protocolCutInx+3, url.length);
+    }
+    var wwwCutInx = remainingUrl.indexOf('www.');
+    var finalUrl = remainingUrl;
+   
+    if(wwwCutInx>-1)
+    {
+        finalUrl = remainingUrl.substr(wwwCutInx+4, remainingUrl.length);
+    }
+    return finalUrl;
+    
+}
+function setFrmHeightWithMessaging()
+{    
+    
+    var remoteDomain  = onlyDomain('');
+    var respondToSizingMessage = function(e)
+    {
+        var currentHeight = getDocHeight();
+        //alert("set tot admin::" + remoteDomain);
+        //alert("REMOTE:" + e.origin);
+        //alert("REMOTE:" + e.data);
+        // e.data is the string sent by the origin with postMessage.
+        var eOrigin = onlyDomain(e.origin);
+        if( eOrigin === remoteDomain)
+        {
+            if (e.data === 'hlsizing?') {
+                e.source.postMessage('hlremoteHeight:' + currentHeight, e.origin);
+            }
+        }
+    }
+    if(remoteDomain!=='')
+    {
+        if (window.addEventListener) {
+            window.addEventListener('message', respondToSizingMessage, false);
+        } else if (window.attachEvent) {
+            window.attachEvent('onmessage', respondToSizingMessage);
+        }
+    }
+}
+$(document).ready(function()
+{
+    window.addEventListener('online', function () { 
+        console.log('Internet is connected.');
+        $("#detectInternetConnOFF").hide();
+    });
+    window.addEventListener('offline', function () {
+        console.log('Internet is disconnected.');
+        $("#detectInternetConnOFF").show();
+    });
+});
+
+
+</script>
+
+<!--- Added by Nand Kishor --->
+<script type="text/javascript" src="https://13079.hotelogix.net/js/bootstrap.min.js?v=2n520240929"></script>
+</body></html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="412779" started-at="2024-12-22T19:02:12Z" finished-at="2024-12-22T19:09:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="412779" started-at="2024-12-22T19:02:12Z" finished-at="2024-12-22T19:09:05Z">
+      <class name="com.hotelogix.smoke.FrontdeskTest.FrontdeskTest">
+        <test-method status="PASS" signature="fn_creatingCollection()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.FrontdeskTest@4c70fda8]" name="fn_creatingCollection" is-config="true" duration-ms="626" started-at="2024-12-23T00:32:12Z" finished-at="2024-12-23T00:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn_creatingCollection -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.FrontdeskTest@4c70fda8]" name="LaunchApp" is-config="true" duration-ms="7441" started-at="2024-12-23T00:32:13Z" finished-at="2024-12-23T00:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="fn_verifyRtClkCheckoutInSingleReserv()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.FrontdeskTest@4c70fda8]" name="fn_verifyRtClkCheckoutInSingleReserv" duration-ms="404030" started-at="2024-12-23T00:32:21Z" description="Create 1N1R reservation,right click on it and verify &#039;Checkout&#039; link." finished-at="2024-12-23T00:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn_verifyRtClkCheckoutInSingleReserv -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.FrontdeskTest@4c70fda8]" name="closeApp" is-config="true" duration-ms="670" started-at="2024-12-23T00:39:05Z" finished-at="2024-12-23T00:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.hotelogix.smoke.FrontdeskTest.FrontdeskTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <listeners>
+    <listener class-name="com.hotelogix.smoke.FrontdeskTest.Ireporter"/>
+    <listener class-name="com.hotelogix.smoke.FrontdeskTest.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.hotelogix.smoke.FrontdeskTest.FrontdeskTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="TC_189_190"/>
+          <include name="LaunchApp"/>
+          <include name="fn_creatingCollection"/>
+        </methods>
+      </class> <!-- com.hotelogix.smoke.FrontdeskTest.FrontdeskTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
